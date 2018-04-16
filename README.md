@@ -11,44 +11,44 @@ This application uses JavaScript (Node.js) and mySQl as its database.
 
 <h2>Setup in SQL</h2>
 
-![mySWL](mySQL.PNG)
+![mySQL](mySQL.png)
 
 <h2>Intro</h2>
 
 To begin, the app welcomes you and gives you two options: One to see a list of all of the products offered for people new to Bamazon, and another to begin the shopping experience: 
 
-![one](one.PNG)
+![one](one.png)
 
 <h2>Product List</h2>
 
 If the customer chooses to see a list of products, the app reaches into the created SQL database and retrieves a list of the products' ID numbers, names, departments, prices, and quantity available:
 
-![two](two.PNG)
+![two](two.png)
 
 <h2>Start Shopping</h2>
 
 If the customer chooses to begin shopping instead, or decides to shop after seeing the product list, they are asked to enter a product ID number and the quantity of that item they would like to purchase:
 
-![three](three.PNG)
+![three](three.png)
 
 <h2>Within Stock Quantity</h2>
 
 If the amount purchased is lower than the amount of the product that is available, the customer is given a thank you message with the price of the items chosen, and then are asked whether they would like to continue shopping: 
 
-![four](four.PNG)
+![four](four.png)
 
 <h2>Over Stock Quantity</h2>
 
 If the amount purchased is greater than the amount of the product that is available, the customer is given the option to purchase a different amount, purchase a different product, or end their shopping experience: 
 
-![five](five.PNG)
+![five](five.png)
 
 Choosing to choose a different product or amount resets their shopping experience: 
 
-![six](six.PNG)
+![six](six.png)
 
 <h2>Ending the Shopping Experience</h2>
 
 If the user chooses to end their shopping experience after purchasing or if they ask for more than is available, they are given a thank you message and the app ends: 
 
-![seven](seven.PNG)
+![seven](seven.png)
